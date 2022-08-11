@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectList/Portfolio project list render matched snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Portfolio
+    </h1>
+    <div
+      class="flex-row"
+    >
+      <img
+        alt="Create polls and share with friends"
+        class="img-thumbnail mx-1"
+        src="VotingWithFriends.png"
+      />
+      <img
+        alt="Track your expenses on the go"
+        class="img-thumbnail mx-1"
+        src="secure-sierra-42105.herokuapp.com_.png"
+      />
+      <img
+        alt="Dynamically create notes saved locally"
+        class="img-thumbnail mx-1"
+        src="aqua-iron-dane.herokuapp.com_(iPad Air).png"
+      />
+      <img
+        alt="Randomly draw from the Deck of Many Things"
+        class="img-thumbnail mx-1"
+        src="127.0.0.1_5500_domt-app_index.html(iPad Air).png"
+      />
+      <img
+        alt="Get local 5-day weather forecast"
+        class="img-thumbnail mx-1"
+        src="127.0.0.1_5500_index.html_.png"
+      />
+      <img
+        alt="A simple calendar for scheduling your work day"
+        class="img-thumbnail mx-1"
+        src="jaguilar95.github.io_gray-brass-spaniel_.png"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

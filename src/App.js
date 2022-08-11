@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import ProjectList from "./components/ProjectList";
 
 function App() {
   const [sections] = useState([
@@ -28,6 +29,7 @@ function App() {
       <Header sections={sections} />
       <main>
         <About />
+        <ProjectList />
       </main>
       <Footer />
     </div>

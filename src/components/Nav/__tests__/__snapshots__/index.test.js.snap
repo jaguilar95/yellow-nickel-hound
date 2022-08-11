@@ -2,16 +2,7 @@
 
 exports[`Nav component nav render matches snapshot 1`] = `
 <DocumentFragment>
-  <header
-    class="flex-row px-1"
-  >
-    <h2>
-      <a
-        href="/"
-      >
-        j.aguilar
-      </a>
-    </h2>
+  <div>
     <nav>
       <ul
         class="flex-row"
@@ -23,6 +14,6 @@ exports[`Nav component nav render matches snapshot 1`] = `
         </li>
       </ul>
     </nav>
-  </header>
+  </div>
 </DocumentFragment>
 `;
