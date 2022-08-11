@@ -3,6 +3,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ProjectList from "./components/ProjectList";
+import Contact from "./components/Contact";
 
 function App() {
   const [sections] = useState([
@@ -30,6 +31,7 @@ function App() {
       <main>
         <About />
         <ProjectList />
+        <Contact />
       </main>
       <Footer />
     </div>
