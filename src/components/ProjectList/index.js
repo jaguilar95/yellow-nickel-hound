@@ -34,7 +34,7 @@ function ProjectList() {
     },
   ];
   return (
-    <div>
+    <section>
       <h1>Portfolio</h1>
       <div className="flex-row">
         {photos.map((image) => (
@@ -46,7 +46,7 @@ function ProjectList() {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 

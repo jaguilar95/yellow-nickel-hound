@@ -2,7 +2,7 @@
 
 exports[`ProjectList/Portfolio project list render matched snapshot 1`] = `
 <DocumentFragment>
-  <div>
+  <section>
     <h1>
       Portfolio
     </h1>
@@ -40,6 +40,6 @@ exports[`ProjectList/Portfolio project list render matched snapshot 1`] = `
         src="jaguilar95.github.io_gray-brass-spaniel_.png"
       />
     </div>
-  </div>
+  </section>
 </DocumentFragment>
 `;

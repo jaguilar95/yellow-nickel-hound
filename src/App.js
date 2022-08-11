@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ProjectList from "./components/ProjectList";
 import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 function App() {
   const [sections] = useState([
@@ -32,6 +33,7 @@ function App() {
         <About />
         <ProjectList />
         <Contact />
+        <Resume />
       </main>
       <Footer />
     </div>
