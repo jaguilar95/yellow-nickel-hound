@@ -2,6 +2,7 @@ import React from "react";
 
 function Nav(props) {
   const { sections = [], currentSection, setCurrentSection } = props;
+
   return (
     <div>
       <nav>
