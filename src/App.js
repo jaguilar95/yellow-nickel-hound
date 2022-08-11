@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Nav from "./components/Nav";
+import About from "./components/About";
+import Footer from "./components/Footer";
 
 function App() {
   const [sections] = useState([
@@ -24,6 +26,10 @@ function App() {
   return (
     <div>
       <Nav sections={sections} />
+      <main>
+        <About />
+      </main>
+      <Footer />
     </div>
   );
 }
