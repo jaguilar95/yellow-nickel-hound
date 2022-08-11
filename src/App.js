@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Nav from "./components/Nav";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
   const [sections] = useState([
@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div>
-      <Nav sections={sections} />
+      <Header sections={sections} />
       <main>
         <About />
       </main>

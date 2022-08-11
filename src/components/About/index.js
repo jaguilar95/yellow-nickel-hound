@@ -4,7 +4,7 @@ import coverImage from "../../assets/Cover/josue_hero_portrait.jpg";
 function About() {
   return (
     <section>
-      <h1>About me goes here</h1>
+      <h1>About me</h1>
       <img
         src={coverImage}
         className="my-2"

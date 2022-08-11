@@ -3,10 +3,7 @@ import React from "react";
 function Nav(props) {
   const { sections = [] } = props;
   return (
-    <header className="flex-row px-1">
-      <h2>
-        <a href="/">j.aguilar</a>
-      </h2>
+    <div>
       <nav>
         <ul className="flex-row">
           {sections.map((section) => (
@@ -16,7 +13,7 @@ function Nav(props) {
           ))}
         </ul>
       </nav>
-    </header>
+    </div>
   );
 }
 
