@@ -28,6 +28,25 @@ function App() {
 
   const [currentSection, setCurrentSection] = useState(sections[0]);
 
+  function setSection() {
+    switch (currentSection) {
+      case "About Me":
+        return <About />;
+        break;
+      case "Portfolio":
+        return <ProjectList />;
+        break;
+      case "Contact":
+        return <Contact />;
+        break;
+      case "Resume":
+        return <Resume />;
+        break;
+      default:
+        return <About />;
+    }
+  }
+
   return (
     <div>
       <Header
@@ -35,17 +54,7 @@ function App() {
         currentSection={currentSection}
         setCurrentSection={setCurrentSection}
       />
-      <main>
-        {currentSection.name === "About Me" ? (
-          <About />
-        ) : currentSection.name === "Portfolio" ? (
-          <ProjectList />
-        ) : currentSection.name === "Contact" ? (
-          <Contact />
-        ) : (
-          <Resume />
-        )}
-      </main>
+      <main>{setSection()}</main>
       <Footer />
     </div>
   );
