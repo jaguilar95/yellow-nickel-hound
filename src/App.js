@@ -36,10 +36,15 @@ function App() {
         setCurrentSection={setCurrentSection}
       />
       <main>
-        <About />
-        <ProjectList />
-        <Contact />
-        <Resume />
+        {currentSection.name === "About Me" ? (
+          <About />
+        ) : currentSection.name === "Portfolio" ? (
+          <ProjectList />
+        ) : currentSection.name === "Contact" ? (
+          <Contact />
+        ) : (
+          <Resume />
+        )}
       </main>
       <Footer />
     </div>
