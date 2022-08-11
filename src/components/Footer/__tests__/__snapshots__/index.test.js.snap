@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component footer render matched snapshot 1`] = `
+<DocumentFragment>
+  <footer>
+    <div
+      class="flex-row px-1"
+    >
+      <p
+        class="mx-1"
+      >
+        <a
+          href="https://github.com/jaguilar95"
+        >
+          GitHub
+        </a>
+      </p>
+      <p
+        class="mx-1"
+      >
+        <a
+          href="https://www.linkedin.com/in/jaguilar6115/"
+        >
+          LinkedIn
+        </a>
+      </p>
+      <p
+        class="mx-1"
+      >
+        <a
+          href="mailto: josue.aguilar1995+bootcamp@gmail.com"
+        >
+          Email
+        </a>
+      </p>
+    </div>
+  </footer>
+</DocumentFragment>
+`;
