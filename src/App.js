@@ -26,9 +26,15 @@ function App() {
     },
   ]);
 
+  const [currentSection, setCurrentSection] = useState(sections[0]);
+
   return (
     <div>
-      <Header sections={sections} />
+      <Header
+        sections={sections}
+        currentSection={currentSection}
+        setCurrentSection={setCurrentSection}
+      />
       <main>
         <About />
         <ProjectList />
