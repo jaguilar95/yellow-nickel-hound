@@ -45,12 +45,11 @@ function ProjectList() {
       <h1>Portfolio</h1>
       <div className="flex-row">
         {photos.map((image) => (
-          <a href={image.github}>
+          <a href={image.github} key={image.name}>
             <img
               src={require(`../../assets/ProjectList/${image.docName}`)}
               alt={image.description}
               className="img-thumbnail mx-1"
-              key={image.name}
             />
           </a>
         ))}

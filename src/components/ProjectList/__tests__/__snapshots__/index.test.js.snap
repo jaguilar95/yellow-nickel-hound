@@ -9,36 +9,60 @@ exports[`ProjectList/Portfolio project list render matched snapshot 1`] = `
     <div
       class="flex-row"
     >
-      <img
-        alt="Create polls and share with friends"
-        class="img-thumbnail mx-1"
-        src="VotingWithFriends.png"
-      />
-      <img
-        alt="Track your expenses on the go"
-        class="img-thumbnail mx-1"
-        src="secure-sierra-42105.herokuapp.com_.png"
-      />
-      <img
-        alt="Dynamically create notes saved locally"
-        class="img-thumbnail mx-1"
-        src="aqua-iron-dane.herokuapp.com_(iPad Air).png"
-      />
-      <img
-        alt="Randomly draw from the Deck of Many Things"
-        class="img-thumbnail mx-1"
-        src="127.0.0.1_5500_domt-app_index.html(iPad Air).png"
-      />
-      <img
-        alt="Get local 5-day weather forecast"
-        class="img-thumbnail mx-1"
-        src="127.0.0.1_5500_index.html_.png"
-      />
-      <img
-        alt="A simple calendar for scheduling your work day"
-        class="img-thumbnail mx-1"
-        src="jaguilar95.github.io_gray-brass-spaniel_.png"
-      />
+      <a
+        href="https://github.com/jaguilar95/thejake989-PurpleAluminiumShih-Tzu"
+      >
+        <img
+          alt="Create polls and share with friends"
+          class="img-thumbnail mx-1"
+          src="VotingWithFriends.png"
+        />
+      </a>
+      <a
+        href="https://github.com/jaguilar95/navy-bronze-terrier"
+      >
+        <img
+          alt="Track your expenses on the go"
+          class="img-thumbnail mx-1"
+          src="secure-sierra-42105.herokuapp.com_.png"
+        />
+      </a>
+      <a
+        href="https://github.com/jaguilar95/aqua-iron-dane"
+      >
+        <img
+          alt="Dynamically create notes saved locally"
+          class="img-thumbnail mx-1"
+          src="aqua-iron-dane.herokuapp.com_(iPad Air).png"
+        />
+      </a>
+      <a
+        href="https://github.com/tj-tieso/domt-app"
+      >
+        <img
+          alt="Randomly draw from the Deck of Many Things"
+          class="img-thumbnail mx-1"
+          src="127.0.0.1_5500_domt-app_index.html(iPad Air).png"
+        />
+      </a>
+      <a
+        href="https://github.com/jaguilar95/white-mercury-dalmatian"
+      >
+        <img
+          alt="Get local 5-day weather forecast"
+          class="img-thumbnail mx-1"
+          src="127.0.0.1_5500_index.html_.png"
+        />
+      </a>
+      <a
+        href="https://github.com/jaguilar95/gray-brass-spaniel"
+      >
+        <img
+          alt="A simple calendar for scheduling your work day"
+          class="img-thumbnail mx-1"
+          src="jaguilar95.github.io_gray-brass-spaniel_.png"
+        />
+      </a>
     </div>
   </section>
 </DocumentFragment>

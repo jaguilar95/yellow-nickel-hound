@@ -6,16 +6,30 @@ import Header from "..";
 const sections = [
   { name: "portraits", description: "Portraits of people in my life" },
 ];
+const currentSection = { name: "About Me" };
+const mockSetCurrentSection = jest.fn();
 
 afterEach(cleanup);
 
 describe("Header component", () => {
   it("renders", () => {
-    render(<Header sections={sections} />);
+    render(
+      <Header
+        sections={sections}
+        currentSection={currentSection}
+        setCurrentSection={mockSetCurrentSection}
+      />
+    );
   });
 
   it("header render matches snapshot", () => {
-    const { asFragment } = render(<Header sections={sections} />);
+    const { asFragment } = render(
+      <Header
+        sections={sections}
+        currentSection={currentSection}
+        setCurrentSection={mockSetCurrentSection}
+      />
+    );
 
     expect(asFragment()).toMatchSnapshot();
   });

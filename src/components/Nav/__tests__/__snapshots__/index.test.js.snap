@@ -8,9 +8,11 @@ exports[`Nav component nav render matches snapshot 1`] = `
         class="flex-row"
       >
         <li
-          class="mx-1"
+          class="mx-2 false"
         >
-          portraits
+          <span>
+            portraits
+          </span>
         </li>
       </ul>
     </nav>
