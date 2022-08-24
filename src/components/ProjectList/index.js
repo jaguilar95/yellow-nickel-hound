@@ -3,6 +3,12 @@ import React from "react";
 function ProjectList() {
   const photos = [
     {
+      name: "Voting with Friends v.2",
+      description: "Vote with friends, now in react!",
+      docName: "shielded-bastion-93901.herokuapp.com_.png",
+      github: "https://github.com/votingwithfriends/votingwithfriends",
+    },
+    {
       name: "Voting with Friends",
       description: "Create polls and share with friends",
       docName: "VotingWithFriends.png",
