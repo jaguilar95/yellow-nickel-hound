@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yellow-nickel-hound/static/css/main.a3729033.css",
-    "main.js": "/yellow-nickel-hound/static/js/main.e7234c0c.js",
+    "main.js": "/yellow-nickel-hound/static/js/main.aee21e58.js",
     "static/js/787.065ebc76.chunk.js": "/yellow-nickel-hound/static/js/787.065ebc76.chunk.js",
     "static/media/secure-sierra-42105.herokuapp.com_.png": "/yellow-nickel-hound/static/media/secure-sierra-42105.herokuapp.com_.0471667ebb42ed191f4f.png",
     "static/media/jaguilar95.github.io_gray-brass-spaniel_.png": "/yellow-nickel-hound/static/media/jaguilar95.github.io_gray-brass-spaniel_.b5439350a54d5a3e9034.png",
@@ -9,14 +9,15 @@
     "static/media/127.0.0.1_5500_domt-app_index.html(iPad Air).png": "/yellow-nickel-hound/static/media/127.0.0.1_5500_domt-app_index.html(iPad Air).da358080f78b509b10c6.png",
     "static/media/josue_hero_portrait.jpg": "/yellow-nickel-hound/static/media/josue_hero_portrait.2e31c1dfc8adc70f3ad8.jpg",
     "static/media/aqua-iron-dane.herokuapp.com_(iPad Air).png": "/yellow-nickel-hound/static/media/aqua-iron-dane.herokuapp.com_(iPad Air).6c3da5fccff7ddfe93b1.png",
+    "static/media/shielded-bastion-93901.herokuapp.com_.png": "/yellow-nickel-hound/static/media/shielded-bastion-93901.herokuapp.com_.85e8a1be1f7a2afb0eed.png",
     "static/media/VotingWithFriends.png": "/yellow-nickel-hound/static/media/VotingWithFriends.890638592b381d82c3fa.png",
     "index.html": "/yellow-nickel-hound/index.html",
     "main.a3729033.css.map": "/yellow-nickel-hound/static/css/main.a3729033.css.map",
-    "main.e7234c0c.js.map": "/yellow-nickel-hound/static/js/main.e7234c0c.js.map",
+    "main.aee21e58.js.map": "/yellow-nickel-hound/static/js/main.aee21e58.js.map",
     "787.065ebc76.chunk.js.map": "/yellow-nickel-hound/static/js/787.065ebc76.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3729033.css",
-    "static/js/main.e7234c0c.js"
+    "static/js/main.aee21e58.js"
   ]
 }
